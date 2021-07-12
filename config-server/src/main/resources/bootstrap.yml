@@ -8,10 +8,13 @@ spring:
           uri: https://github.com/mukeshgulia/spring-cloud-config-server.git
           default-label: main
           username: mukeshgulia
-          password: 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
+          password: '{cipher}e17bcec74df4e37e0af2ca6ac669239aec392b5af259e36b431522e88514ef34501b9dc29e13b0730b5aee826354626fe989234abd3504ebac497ff309d0e3b4'
           clone-on-start: true
     fail-fast: true
   security:
     user:
       name: spring_cloud_user
-      password: springCloud_Pwd!
+      password: '{cipher}a265072852c6c148a41da2712ef26615b7153e7107d1995ae4ed1c56d826e90a05b761aefac151acef02433bcb0a8c3d'
+
+encrypt:
+  key: spring-cloud-demo!
