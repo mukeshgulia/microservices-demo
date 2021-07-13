@@ -39,7 +39,9 @@ public class TwitterKafkaProducer implements KafkaProducer<Long, TwitterAvroMode
             kafkaTemplate.destroy();
         }
     }
-    private void addCallback(String topicName, TwitterAvroModel message, ListenableFuture<SendResult<Long, TwitterAvroModel>> kafkaResultFuture) {
+
+    private void addCallback(String topicName, TwitterAvroModel message,
+                             ListenableFuture<SendResult<Long, TwitterAvroModel>> kafkaResultFuture) {
         kafkaResultFuture.addCallback(new ListenableFutureCallback<>() {
             @Override
             public void onFailure(Throwable throwable) {
