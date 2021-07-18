@@ -8,6 +8,8 @@
 		<module>kafka</module>
 		<module>common-config</module>
 		<module>config-server</module>
+		<module>elastic-query-service</module>
+		<module>common-util</module>
 		<module>kafka-to-elastic-service</module>
         <module>elastic</module>
     </modules>
@@ -36,6 +38,7 @@
 		<spring-cloud.version>2.2.6.RELEASE</spring-cloud.version>
 		<spring-cloud-dependencies.version>Hoxton.SR9</spring-cloud-dependencies.version>
 		<elasticsearch.version>7.9.1</elasticsearch.version>
+		<springdoc-openapi-ui.version>1.5.0</springdoc-openapi-ui.version>
 	</properties>
 
 	<repositories>
@@ -60,6 +63,11 @@
 			</dependency>
 			<dependency>
 				<groupId>com.microservices.demo</groupId>
+				<artifactId>common-util</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.microservices.demo</groupId>
 				<artifactId>elastic-config</artifactId>
 				<version>${project.version}</version>
 			</dependency>
@@ -71,6 +79,11 @@
 			<dependency>
 				<groupId>com.microservices.demo</groupId>
 				<artifactId>elastic-model</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.microservices.demo</groupId>
+				<artifactId>elastic-query-client</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
@@ -205,6 +218,12 @@
 				<groupId>org.elasticsearch.client</groupId>
 				<artifactId>elasticsearch-rest-high-level-client</artifactId>
 				<version>${elasticsearch.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.springdoc</groupId>
+				<artifactId>springdoc-openapi-ui</artifactId>
+				<version>${springdoc-openapi-ui.version}</version>
 			</dependency>
 
 		</dependencies>
