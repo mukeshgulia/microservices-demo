@@ -1,0 +1,92 @@
+2021-07-19 14:18:50 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2021-07-19 14:18:54 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2021-07-19 14:18:56 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://config-server:8888
+2021-07-19 14:18:59 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=elastic-query-service,config-client, profiles=[elastic_query], label=null, version=5e43712c1f5000e4a38b023fe2d94c84f4d781fb, state=null
+2021-07-19 14:18:59 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/mukeshgulia/spring-cloud-config-server.git/config-client-elastic_query.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/mukeshgulia/spring-cloud-config-server.git/config-client.yml'}]
+2021-07-19 14:18:59 [main] INFO  c.m.d.e.q.s.ElasticQueryServiceApplication - The following profiles are active: elastic_query
+2021-07-19 14:18:59 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://config-server:8888
+2021-07-19 14:19:00 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=elastic-query-service,config-client, profiles=[elastic_query], label=null, version=5e43712c1f5000e4a38b023fe2d94c84f4d781fb, state=null
+2021-07-19 14:19:00 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/mukeshgulia/spring-cloud-config-server.git/config-client-elastic_query.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/mukeshgulia/spring-cloud-config-server.git/config-client.yml'}]
+2021-07-19 14:19:01 [main] INFO  c.m.d.e.q.s.ElasticQueryServiceApplication - The following profiles are active: elastic_query
+2021-07-19 14:19:03 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2021-07-19 14:19:03 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2021-07-19 14:19:04 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 469ms. Found 1 Elasticsearch repository interfaces.
+2021-07-19 14:19:04 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 208ms. Found 1 Elasticsearch repository interfaces.
+2021-07-19 14:19:04 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2021-07-19 14:19:04 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2021-07-19 14:19:05 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40ms. Found 0 Reactive Elasticsearch repository interfaces.
+2021-07-19 14:19:05 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46ms. Found 0 Reactive Elasticsearch repository interfaces.
+2021-07-19 14:19:06 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=ca09621c-9828-3de3-bc4a-37a1cb5b08c8
+2021-07-19 14:19:06 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=ca09621c-9828-3de3-bc4a-37a1cb5b08c8
+2021-07-19 14:19:07 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8183 (http)
+2021-07-19 14:19:07 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8185 (http)
+2021-07-19 14:19:07 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8185"]
+2021-07-19 14:19:07 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-07-19 14:19:07 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-07-19 14:19:07 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8183"]
+2021-07-19 14:19:07 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-07-19 14:19:07 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-07-19 14:19:08 [main] INFO  o.a.c.c.C.[.[.[/elastic-query-service] - Initializing Spring embedded WebApplicationContext
+2021-07-19 14:19:08 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6566 ms
+2021-07-19 14:19:08 [main] INFO  o.a.c.c.C.[.[.[/elastic-query-service] - Initializing Spring embedded WebApplicationContext
+2021-07-19 14:19:08 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 8622 ms
+2021-07-19 14:19:09 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-07-19 14:19:09 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-07-19 14:19:09 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-07-19 14:19:09 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-07-19 14:19:09 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-07-19 14:19:09 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-07-19 14:19:09 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-07-19 14:19:09 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-07-19 14:19:09 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-07-19 14:19:09 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-07-19 14:19:09 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-07-19 14:19:09 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-07-19 14:19:09 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-07-19 14:19:09 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-07-19 14:19:09 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-07-19 14:19:09 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-07-19 14:19:12 [main] INFO  o.s.d.e.support.VersionInfo - Version Spring Data Elasticsearch: 4.0.4.RELEASE
+2021-07-19 14:19:12 [main] INFO  o.s.d.e.support.VersionInfo - Version Spring Data Elasticsearch: 4.0.4.RELEASE
+2021-07-19 14:19:12 [main] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch Client in build: 7.6.2
+2021-07-19 14:19:12 [main] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch Client used: 7.9.1
+2021-07-19 14:19:12 [main] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch Client in build: 7.6.2
+2021-07-19 14:19:12 [main] WARN  o.s.d.e.support.VersionInfo - Version mismatch in between Elasticsearch Clients build/use: 7.6.2 - 7.9.1
+2021-07-19 14:19:12 [main] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch Client used: 7.9.1
+2021-07-19 14:19:12 [main] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch cluster: 7.9.1
+2021-07-19 14:19:12 [main] WARN  o.s.d.e.support.VersionInfo - Version mismatch in between Elasticsearch Clients build/use: 7.6.2 - 7.9.1
+2021-07-19 14:19:12 [main] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch cluster: 7.9.1
+2021-07-19 14:19:14 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/api-docs'], []
+2021-07-19 14:19:14 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/api-docs'], []
+2021-07-19 14:19:14 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@47eae91d, org.springframework.security.web.context.SecurityContextPersistenceFilter@39a865c1, org.springframework.security.web.header.HeaderWriterFilter@6c75e3bc, org.springframework.security.web.authentication.logout.LogoutFilter@546083d6, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6e017950, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@a7bbdbc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71285693, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c1a74d, org.springframework.security.web.session.SessionManagementFilter@e3c36d, org.springframework.security.web.access.ExceptionTranslationFilter@3bf01a01, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@69c1ea07]
+2021-07-19 14:19:14 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@c1a74d, org.springframework.security.web.context.SecurityContextPersistenceFilter@141dfcf9, org.springframework.security.web.header.HeaderWriterFilter@186f7434, org.springframework.security.web.authentication.logout.LogoutFilter@7ac1b6c0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1d06801f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@63eea8c4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3199a202, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@472719df, org.springframework.security.web.session.SessionManagementFilter@397a10df, org.springframework.security.web.access.ExceptionTranslationFilter@299cab08, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5cbe72b9]
+2021-07-19 14:19:15 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-19 14:19:15 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-19 14:19:20 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8185"]
+2021-07-19 14:19:20 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8185 (http) with context path '/elastic-query-service'
+2021-07-19 14:19:20 [main] INFO  c.m.d.e.q.s.ElasticQueryServiceApplication - Started ElasticQueryServiceApplication in 32.489 seconds (JVM running for 35.522)
+2021-07-19 14:19:20 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8183"]
+2021-07-19 14:19:20 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8183 (http) with context path '/elastic-query-service'
+2021-07-19 14:19:20 [main] INFO  c.m.d.e.q.s.ElasticQueryServiceApplication - Started ElasticQueryServiceApplication in 28.468 seconds (JVM running for 30.671)
+2021-07-19 14:20:09 [http-nio-8183-exec-2] INFO  o.a.c.c.C.[.[.[/elastic-query-service] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-19 14:20:09 [http-nio-8183-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-07-19 14:20:09 [http-nio-8183-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2021-07-19 14:20:09 [http-nio-8183-exec-2] INFO  c.m.d.e.q.s.b.i.TwitterElasticQueryService - Querying all documents in elasticsearch
+2021-07-19 14:20:10 [http-nio-8183-exec-2] INFO  c.m.d.e.q.c.s.i.TwitterElasticRepositoryClientImpl - 631 of document retrieved successfully
+2021-07-19 14:20:11 [http-nio-8183-exec-2] INFO  c.m.d.e.q.s.a.ElasticDocumentController - Elasticsearch returned 631 of documents
+2021-07-19 14:20:19 [http-nio-8183-exec-3] INFO  c.m.d.e.q.s.b.i.TwitterElasticQueryService - Querying elasticsearch by id 1415344807925456906
+2021-07-19 14:20:19 [http-nio-8183-exec-3] INFO  c.m.d.e.q.c.s.i.TwitterElasticRepositoryClientImpl - Document with id 1415344807925456906 retrieved successfully
+2021-07-19 14:22:50 [http-nio-8185-exec-1] INFO  o.a.c.c.C.[.[.[/elastic-query-service] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-19 14:22:50 [http-nio-8185-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-07-19 14:22:50 [http-nio-8185-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2021-07-19 14:22:50 [http-nio-8185-exec-1] INFO  c.m.d.e.q.s.b.i.TwitterElasticQueryService - Querying elasticsearch by id 1415344807925456906
+2021-07-19 14:22:50 [http-nio-8185-exec-1] INFO  c.m.d.e.q.c.s.i.TwitterElasticRepositoryClientImpl - Document with id 1415344807925456906 retrieved successfully
+2021-07-19 14:34:39 [http-nio-8185-exec-4] INFO  c.m.d.e.q.s.b.i.TwitterElasticQueryService - Querying elasticsearch by text text
+2021-07-19 14:34:39 [http-nio-8185-exec-4] INFO  c.m.d.e.q.c.s.i.TwitterElasticRepositoryClientImpl - 0 of document with text text retrieved successfully
+2021-07-19 14:34:39 [http-nio-8185-exec-4] INFO  c.m.d.e.q.s.a.ElasticDocumentController - Elasticsearch returned 0 of documents
+2021-07-19 14:34:49 [http-nio-8183-exec-5] INFO  c.m.d.e.q.s.b.i.TwitterElasticQueryService - Querying elasticsearch by text java
+2021-07-19 14:34:49 [http-nio-8183-exec-5] INFO  c.m.d.e.q.c.s.i.TwitterElasticRepositoryClientImpl - 409 of document with text java retrieved successfully
+2021-07-19 14:34:49 [http-nio-8183-exec-5] INFO  c.m.d.e.q.s.a.ElasticDocumentController - Elasticsearch returned 409 of documents
+2021-07-19 14:34:53 [http-nio-8185-exec-5] INFO  c.m.d.e.q.s.b.i.TwitterElasticQueryService - Querying elasticsearch by text java
+2021-07-19 14:34:53 [http-nio-8185-exec-5] INFO  c.m.d.e.q.c.s.i.TwitterElasticRepositoryClientImpl - 410 of document with text java retrieved successfully
+2021-07-19 14:34:53 [http-nio-8185-exec-5] INFO  c.m.d.e.q.s.a.ElasticDocumentController - Elasticsearch returned 410 of documents

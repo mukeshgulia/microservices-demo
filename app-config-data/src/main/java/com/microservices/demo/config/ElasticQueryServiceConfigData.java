@@ -7,6 +7,6 @@ import org.springframework.context.annotation.Configuration;
 @Data
 @Configuration
 @ConfigurationProperties(prefix = "elastic-query-service")
-public class ElasticQueryServiceData {
+public class ElasticQueryServiceConfigData {
     private String version;
 }
